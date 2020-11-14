@@ -18,6 +18,9 @@ For my home page, I decided to include a large image before my title and introdu
 
 
 ## Features
+One feature that I have included for each page is the Contact Me section. Since this website is to showcase my portfolio, I thought that it would be a good idea to leave my contacts to the employers looking at my portfolio. This would make it easier for employers to contact me if they are interested in hiring me.
+
+Another feature that I have included for each page is the "Previous Page" and "Next Page" buttons. This is to ensure that employers that are going through my website can have a smooth transition between pages. 
 
 
 ### Existing Features
