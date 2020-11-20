@@ -24,16 +24,48 @@ Another feature that I have included for each page is the "Previous Page" and "N
 
 
 ### Existing Features
+Contact Me.
+"Previous Page", "Next Page" or "Home Page" buttons
 
 
 ### Features Left to Implement
+I may still want to have a navigation bar for the top of the page so that people looking at my portfolio can navigate to parts of the pages.
 
 
 ## Technologies Used
+I used _blank to allow HTML to open a new tab when "Previous Page", "Next Page" or "Home Page" button is clicked on. I also used flexboxes to organise my images so that they do not look messy or in a wrong postition.
 
 
 ## Testing
 
 
 ## Credits
+I used google for the images of the HTML. Links to the images are below.
+
+ID ASG 1 References:
+
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fzhengkeng.com.sg%2Fwp-content%2Fuploads%2FBlk-7-canteen-MPH.jpg&imgrefurl=https%3A%2F%2Fzhengkeng.com.sg%2Fgeylang-methodist-primary-school%2F&tbnid=0GB19-HTL-5qqM&vet=12ahUKEwjBn42j-4HtAhVKXCsKHcCeAtgQMygAegUIARCmAQ..i&docid=nrHlnBCj8YmbBM&w=1000&h=750&q=geylang%20methodist%20primary%20school&ved=2ahUKEwjBn42j-4HtAhVKXCsKHcCeAtgQMygAegUIARCmAQ
+
+
+https://image.talentnetwork.vn/hrvietnam///news/2014/07/23/1406098865_ditital-portflio-building-learningkeeper-homeschool-online-digital-portfolio-compliance-record-keeping-software.jpg
+
+
+https://zhengkeng.com.sg/wp-content/uploads/2015/03/img-projects-GeylangMethodist-04-b.jpg
+
+
+https://www.dailyhostnews.com/wp-content/uploads/2018/07/Python-featured-2100x1200.jpg
+
+https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.bNWx3aJsAPq1sH5yN2kdZQHaE8%26pid%3DApi&f=1
+
+https://www.chess.com/bundles/web/images/offline-play/standardboard.6a504885.png
+
+https://library.kissclipart.com/20180915/ohq/kissclipart-terminal-server-icon-clipart-computer-icons-comput-ab40b6152c858836.jpg
+
+https://dzone.com/storage/temp/13474736-10-512.png
+
+https://news.cs.washington.edu/wp-content/uploads/2017/12/icpc.png
+
+https://payyourintern.com/wp-content/uploads/2019/03/%D0%9E.jpg
+
+https://pbs.twimg.com/media/Ecaa1k2X0AIPTlO.jpg:large
 
