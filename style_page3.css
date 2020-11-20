@@ -56,7 +56,12 @@ footer {
 
 @media screen and (max-width: 576px) {
     .flex-item1 {
-        flex: 1 100%;
+        flex-basis: 46%;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
         flex-grow: inherit;
+        align-items: center;
+        height: 150px;
     }
 }
