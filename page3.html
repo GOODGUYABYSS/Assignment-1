@@ -8,35 +8,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style_page3.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="page2.html">My Skillsets and Other Interests</a>
+        <a class="active" href="page3.html">Competitions, Projects, Honours & Awards</a>
+        <a href="#contactme">Contact Me</a>
+
+    </nav>
+
     <!-- heading and description for page 3 -->
-    <header style="color: white;">
+    <header>
         <h1>Wei Xiang's Portfolio Page 3</h1>
-            <p style="text-align: center; font-family: 'Open Sans', sans-serif;">Competitons, Projects, Honours </p>
+            <p class="intro">Competitions, Projects, Honours & Awards </p>
     </header>
     <br>
     <br>
 
-    <!-- heading and 2 unordered lists on competitions and work -->
-    <section style="color: white;">
-        <h3 style="font-family: 'Oswald', sans-serif;">Here is a list of competitions I have joined and also some work that I have done in the past</h3>
-            <ul style="font-family: 'Open Sans', sans-serif;">
+    <!-- heading and unordered list on past competitions -->
+    <section>
+        <h3>Past Competitions</h3>
+            <ul>
                 <li>ACM-ICPC International Collegiate Programming Contest</li>
                 <li>TopCoder</li>
                 <li>Google Code Jam</li>
                 <li>Google Kick Start</li>
                 <li>ICFP Programming Contest</li>
             </ul>
-        
-            <ul style="font-family: 'Open Sans', sans-serif;">
+    </section>
+    
+    <!-- heading and unordered list on projects -->
+    <section>
+        <h3>Projects</h3>
+            <ul>
                 <li>Making A Chess Engine</li>
                 <li>BMI Calculator</li>
                 <li>Creating a Web Server</li>
@@ -47,9 +54,9 @@
     </section>
 
     <!-- heading and unordered list on Honours & Awards -->
-    <section style="color: white;">
-        <h3 style="font-family: 'Oswald', sans-serif;">Honours & Awards</h3>
-            <ul style="font-family: 'Open Sans', sans-serif;">
+    <section>
+        <h3>Honours & Awards</h3>
+            <ul>
                 <li>1st Place in Google Code Jam</li>
                 <li>2nd Runner-Up in ACM-ICPC</li>
                 <li>3rd Place in Google Kick Start</li>
@@ -58,40 +65,44 @@
     </section>
 
     <!-- images of projects and competitions -->
-    <section class="flex-container1">
-        <div class="flex-item1">
-            <img src="acm.jpg" alt="Code Image" height="320" width="400">
+    <section class="flex-container3">
+        <div class="flex-item3">
+            <img src="images/acm.jpg" alt="Code Image">
         </div>
-        <div class="flex-item1">
-            <img src="icfp.jpg" alt="Code Image" height="320" width="400">
+        <div class="flex-item3">
+            <img src="images/icfp.jpg" alt="Code Image">
         </div>
-        <div class="flex-item1">
-            <img src="code-jam.jpg" alt="Code Image" height="320" width="400">
+        <div class="flex-item3">
+            <img src="images/code-jam.jpg" alt="Code Image">
         </div>
-        <div class="flex-item1">
-            <img src="code0.jpg" alt="Code Image" height="320" width="400">
+        <div class="flex-item3">
+            <img src="images/code0.jpg" alt="Code Image">
         </div>
-        <div class="flex-item1">
-            <img src="code1.jpg" alt="Code Image" height="320" width="400">
+        <div class="flex-item3">
+            <img src="images/code1.jpg" alt="Code Image">
         </div>
-        <div class="flex-item1">
-            <img src="code2.jpg" alt="Code Image" height="320" width="400">
+        <div class="flex-item3">
+            <img src="images/code2.jpg" alt="Code Image">
         </div>
-        <div class="flex-item1">
-            <img src="code3.jpg" alt="Code Image" height="320" width="400">
+        <div class="flex-item3">
+            <img src="images/code3.jpg" alt="Code Image">
         </div>
-        <div class="flex-item1">
-            <img src="code4.jpg" alt="Code Image" height="320" width="400">
+        <div class="flex-item3">
+            <img src="images/code4.jpg" alt="Code Image">
         </div>
-        <div class="flex-item1">
-            <img src="code5.jpg" alt="Code Image" height="320" width="400">
+        <div class="flex-item3">
+            <img src="images/code5.jpg" alt="Code Image">
         </div>
 
     </section>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <!-- buttons for navigation(previous page and home page) -->
-    <a href="page2.html" class="button1" target="_blank">Previous Page</a>
-    <a href="index.html" class="button2" target="_blank">Home Page</a>
+    <a href="page2.html" class="button4" target="_blank">Previous Page</a>
+    <a href="index.html" class="button5" target="_blank">Home Page</a>
 
     <br>
     <br>
@@ -99,9 +110,9 @@
     <br>
 
     <!-- contact me section -->
-    <footer>
-        <h2 style="font-family: 'Oswald', sans-serif;">Contact Me</h2>
-            <p style="font-family: 'Open Sans', sans-serif;">Email: beakweixiang1234@gmail.com
+    <footer id="contactme">
+        <h2>Contact Me</h2>
+            <p class="contact">Email: beakweixiang1234@gmail.com
                 <br>Contact Number: 98123456
                 <br>Facebook: beakweixiang1234
                 <br>Instagram: beakweixiang1234 
