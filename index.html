@@ -3,24 +3,31 @@
     
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wei Xiang's Portfolio Home Page</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <nav class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="page2.html">My Skillsets and Other Interests</a>
+        <a href="page3.html">Competitions, Projects, Honours & Awards</a>
+        <a href="#contactme">Contact Me</a>
+
+    </nav>
     <!-- heading for home page and introduction -->
-    <header>
-        <h1 style="font-family: 'Oswald', sans-serif;">Wei Xiang's Portfolio</h1>
+    <header id="header">
+        <h1>Wei Xiang's Portfolio</h1>
         <center>
-            <img src="me.jpg" alt="My Portfolio" height="250" width="200">
+            <img src="images/me.jpg" alt="My Portfolio" height="250" width="200">
         </center>
-        <p style="font-size: medium; text-align: center; font-family: 'Open Sans', sans-serif;">Welcome to my Portfolio! On this website, you can take a look at my past achievements, experiences, future goals, skills and more. 
+        <p class="intro">Welcome to my Portfolio! On this website, you can take a look at my past achievements, experiences, future goals, skills and more. 
             I am currently looking to complete my education in Ngee Ann Polytechnic, Diploma in Immersive Media.
             Hopefully, this will allow you to have a good idea of whether I am the person you are looking for to hire.
         </p>
@@ -29,45 +36,54 @@
     <br>
 
     <!-- images for Educational History -->
-    <div class="flex-container1">
+    <section class="flex-container1">
         <div class="flex-item1">
-            <img src="gmsp.jpg" alt="My Primary School" height="250" width="400">
+            <img src="images/gmsp.jpg" alt="My Primary School" height="250" width="400">
         </div>
         <div class="flex-item1">
-            <img src="gmss.jpg" alt="My Secondary School" height="250" width="400">
+            <img src="images/gmss.jpg" alt="My Secondary School" height="250" width="400">
         </div>
-    </div>
+    </section>
+    <br>
+    <br>
+    <br>
     <br>
 
     <!-- heading and description points for Educational History and Work Experiences -->
-    <section style="color: white;">
-        <h2 style="font-family: 'Oswald', sans-serif;">Educational History and Work Experiences</h2>
-            <ul style="font-family: 'Open Sans', sans-serif;">
-                <li>I studied at Geylang Methodist School (Primary) and Geylang Methodist School (Secondary) and currently I am studying at Ngee Ann Polytechnic, Immersive Media.</li>
-                <li>Completed PSLE and O levels.</li>
-                <li>My first work experience was during the long holidays after I finished my O levels.</li>
-                <li>I decided to give it a try to work at a restaurant, doing things such as cleaning the tables, mopping and sweeping the floors, serving food and more.</li>
-                <li>It was a very good experience as I was able to understand how the real world works.</li>
-                <li>I also had some opportunities to solve some real-world problems, such as dealing with the customers unreasonable needs.</li>
-                <li>I have also worked at Riot Games as a VFX artist when I was sent there to work as an intern.</li>
-                <li>I was also part of the programming team for the projects they were having.</li>
-            </ul>
+    <section id="work">
+        <h2>Educational History and Work Experiences</h2>
+            <p class="opensans">
+                I studied at Geylang Methodist School (Primary) and Geylang Methodist School (Secondary) and currently I am studying at Ngee Ann Polytechnic, Immersive Media.
+                Completed PSLE and O levels.
+                My first work experience was during the long holidays after I finished my O levels.
+                I decided to give it a try to work at a restaurant, doing things such as cleaning the tables, mopping and sweeping the floors, serving food and more.
+                It was a very good experience as I was able to understand how the real world works.
+                I also had some opportunities to solve some real-world problems, such as dealing with the customers unreasonable needs.
+                I have also worked at Riot Games as a VFX artist when I was sent there to work as an intern.
+                I was also part of the programming team for the projects they were having.
+            </p>
         <br>
     </section>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <!-- heading and description points for Testimonial -->
-    <section style="color: white;">
-        <h2 style="font-family: 'Oswald', sans-serif;">Testimonial</h2>
-        <p style="font-family: 'Open Sans', sans-serif;">Wei Xiang was the Chairperson of Media Resource. This CCA ran sound systems for daily assemblies and weekly chapel sessions, and important events such as National Day, Teacher's Day, Founder's Day, and Chinese New Year Celebration. Through the responsibilities given to him, he developed respect, diligence, resilience and responsibility. Wei Xiang also learned to respond to critical situations quickly and calmly. As the chairperson of Media Resource, he worked hard to motivate his team members to excel.
+    <section id="testimonial">
+        <h2>Testimonial</h2>
+        <p class="opensans">Wei Xiang was the Chairperson of Media Resource. This CCA ran sound systems for daily assemblies and weekly chapel sessions, and important events such as National Day, Teacher's Day, Founder's Day, and Chinese New Year Celebration. Through the responsibilities given to him, he developed respect, diligence, resilience and responsibility. Wei Xiang also learned to respond to critical situations quickly and calmly. As the chairperson of Media Resource, he worked hard to motivate his team members to excel.
             As a further testimonial to his contributions to the school, he participated in a science competition, "Amaning Science X-Challenge" in 2016. He represented the school and competed with teams from other schools. Though he did not win this competition, he discovered the importance of hard work and to always strive for the best. In class, Wei Xiang helped to set up the projector and sound system from 2016 to 2019. His role in the class played a vital role in helping the teachers to teach more efficiently 
             and effectively. Wei Xiang was a well-mannered boy. He demonstrated integrity and was friendly, helpful, humble and respectful. He was a reliable and trustworthy student leader. Wei Xiang accepted whatever tasks given to him seriously and was a highly reliable person. With his positive attitude and personality, he will continue to grow and excel in what he sets his heart to do.
          </p>
     </section>
     <br>
     <br>
+    <br>
+    <br>
 
     <!-- button for for navigation(next page) -->
-    <a href="page2.html" class="button" target="_blank">Next Page</a>
+    <a href="page2.html" class="button1" target="_blank">Next Page</a>
     
     <br>
     <br>
@@ -75,9 +91,9 @@
     <br>
 
     <!-- contact me section -->
-    <footer style="color: white;">
-        <h2 style="font-family: 'Oswald', sans-serif;">Contact Me</h2>
-            <p style="font-family: 'Open Sans', sans-serif;">Email: beakweixiang1234@gmail.com
+    <footer id="contactme">
+        <h2>Contact Me</h2>
+            <p class="contact">Email: beakweixiang1234@gmail.com
                 <br>Contact Number: 98123456
                 <br>Facebook: beakweixiang1234
                 <br>Instagram: beakweixiang1234 
