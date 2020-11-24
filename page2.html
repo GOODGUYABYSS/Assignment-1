@@ -2,34 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wei Xiang's Portfolio Page 2</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style_page2.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="page2.html">My Skillsets and Other Interests</a>
+        <a href="page3.html">Competitions, Projects, Honours & Awards</a>
+        <a href="#contactme">Contact Me</a>
+
+    </nav>
     <!-- heading and description for page 2 -->
     <header>
         <h1>Wei Xiang's Portfolio Page 2</h1>
-            <p style="text-align: center; color: white; font-family: 'Open Sans', sans-serif;">My Skillsets and Other Interests</p>
+            <p class="intro">My Skillsets and Other Interests</p>
     </header>
     <br>
     <br>
 
     <!-- heading and paragraph on Skillsets -->
-    <div class="flex-container1">
-        <section class="flex-item1">
+    <section class="flex-container2">
+        <div class="flex-item2">
             <h2>Skillsets</h2>
-                <p style="font-family: 'Open Sans', sans-serif;">
+                <p class="opensans">
                     I have learnt how to use Adobe Photoshop, Adobe Illustrator, Maya, Blender, Visual Studio Code, Pycharm, Atom, Adobe Substance Painter, Adobe XD, Google Docs, Google Slides, Google Sheets, Microsoft Word, Microsoft Powerpoint, Microsoft Excel. 
                     Some programming languages I have learnt are Python, JavaScript, C++, C+. 
                     I have also learnt HTML and CSS. 
@@ -41,15 +43,19 @@
                     
                 </p>
         <!-- image to support -->
-        </section> 
-            <img class="flex-item1" src="google-things.jpg" alt="Programming Language Python Image" height="" width="280">
-    </div>
+            </div> 
+            <img class="flex-item2" src="images/google-things.jpg" alt="Programming Language Python Image" height="" width="280">
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <!-- heading and paragraph on Other Interests -->
-    <div class="flex-container1">
-        <section class="flex-item1">
+    <section class="flex-container2">
+        <div class="flex-item2">
             <h2>Other Interests</h2>
-                <p style="font-family: 'Open Sans', sans-serif;">
+                <p class="opensans">
                     Some interests I have are sports such as basketball, badminton, table tennis and jogging.
                     I love gaming as well.
                     Some games that I have played are CSGO, Valorant, Robocraft, League of Legends and PUBG.
@@ -57,14 +63,18 @@
                     I am still trying to do more things with python such as automating things and making PyGames.
                     I wish to be able to start up more projects during my free time and add them to my portfolio.
                 </p>
-        </section> 
+            </div> 
         <!-- image to support -->
-            <img class="flex-item1" src="python_image.jpg" alt="Programming Language Python Image" height="" width="280">
-    </div>
+            <img class="flex-item2" src="images/python_image.jpg" alt="Programming Language Python Image" height="" width="280">
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
     
     <!-- buttons for navigation(previous page and next page) -->
-    <a href="index.html" class="button1" target="_blank">Previous Page</a>
-    <a href="page3.html" class="button2" target="_blank">Next Page</a>
+    <a href="index.html" class="button2" target="_blank">Previous Page</a>
+    <a href="page3.html" class="button3" target="_blank">Next Page</a>
 
     <br>
     <br>
@@ -72,9 +82,9 @@
     <br>
 
     <!-- contact me section -->
-    <footer>
-        <h2 style="font-family: 'Oswald', sans-serif;">Contact Me</h2>
-            <p style="font-family: 'Open Sans', sans-serif;">Email: beakweixiang1234@gmail.com
+    <footer id="contactme">
+        <h2>Contact Me</h2>
+            <p class="contact">Email: beakweixiang1234@gmail.com
                 <br>Contact Number: 98123456
                 <br>Facebook: beakweixiang1234
                 <br>Instagram: beakweixiang1234 
