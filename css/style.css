@@ -6,12 +6,12 @@
   
 .topnav a {
     float: left;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
     font-size: 17px;
     width: 23.4%;
+    color: white;
+    padding: 12px;
     text-align: center;
+    text-decoration: none;  
 }
 
   
@@ -27,29 +27,32 @@
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://s3-us-west-2.amazonaws.com/com.uppercut.hero-images/assets/0147/thumbs/226_1077_hro_3194.jpg?v=2020-06-22");
+    position: relative;
     height: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    
 }
 
 .hero-image1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://s3-us-west-2.amazonaws.com/com.uppercut.hero-images/assets/0548/thumbs/548_01402.jpg?v=2020-06-22");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+    
 }
 
 .hero-image2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://s3-us-west-2.amazonaws.com/com.uppercut.hero-images/assets/0320/thumbs/320_02758.jpg?v=2020-06-22");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
+    background-repeat: no-repeat;
+    height: 100%;
 }
   
 .hero-text {
@@ -64,12 +67,13 @@
 .hero-text button {
     border: none;
     outline: 0;
+    background-color: white;
+    color: black;
     display: inline-block;
     padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
     cursor: pointer;
+    text-align: center;
+    
 }
   
 .hero-text button:hover {
@@ -77,7 +81,7 @@
     color: white;
   }
 
-  body, html {
+body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -119,33 +123,34 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-.flex-container1, .flex-container2 {
+.flex-container1 {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     padding: 0%;
 }
 
-.flex-item1, .flex-item2 {
+.flex-item1 {
     flex-basis: 46%;
     display: flex;
     flex-direction: column;
     padding: 1%;
     flex-grow: 1;
     align-items: center;
+    justify-content: center;
 }
 
-.flex-item1 img, .flex-item2 img {
+.flex-item1 img {
     max-width: 100%;
 }
 
-.flex-container3 {
+.flex-container2 {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
 }
 
-.flex-item3 {
+.flex-item2 {
     flex-basis: 31.33%;
     display: flex;
     flex-direction: column;
@@ -153,7 +158,7 @@ p {
     align-items: center;
 }
 
-.flex-item3 img {
+.flex-item2 img {
     max-width: 100%;
     height: 400px;
 }
@@ -211,12 +216,12 @@ footer {
         text-align: left;
     }
 
-    .flex-item1, .flex-item2 {
+    .flex-item1 {
         flex: 1 100%;
         flex-grow: inherit;
     }
 
-    .flex-item3 {
+    .flex-item2 {
         flex-basis: 48%;
         display: flex;
         flex-direction: column;
